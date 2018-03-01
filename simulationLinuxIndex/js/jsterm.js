@@ -497,7 +497,7 @@
    }
 
    var term = Object.create(Terminal);
-   term.init(CONFIG, 'http://localhost:3000/json/data.json', COMMANDS, function() {
+   term.init(CONFIG, 'https://estavel.github.io/simulationLinuxIndex/json/data.json', COMMANDS, function() {
       term.enqueue('login')
           .enqueue('Kwin')
           .enqueue('******')
